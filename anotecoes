@@ -1,10 +1,11 @@
-git add
-git commit
-git status
+git init > a pasta atual agora é um repositorio do git
+git ls-files > saber quais arquivos o git esta controlando
+git add (arquivo) > adicionar o monitoraento do arquivo
+git commit -m (mensagem de commit) > gravas as alteracoes no repositorio local
+git status > estado atual do nosso repositorio
 git whatchanged > mostra quais arquivos foram alterados, alem da mensagem de commit
-git whatchanged -p > exibe mais detalhes, mostra o que foi alterado.
+git whatchanged -p > exibe quais linhas foram modificadas em cada commit
 git log > historico de commits com mensagens
-git ls-files
 git remote > mostra o repositorio remoto (no gitgub)
 gir remote add (apelido do repositorio remoto) (url do repositorio remote)
 git push (apelido repositorio) (branch) > jogar coisas no meu repositorio remote
