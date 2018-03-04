@@ -1,0 +1,11 @@
+git add
+git commit
+git status
+git whatchanged -p
+git whatchanged
+git log
+git ls-files
+git remote > mostra o repositorio remoto (no gitgub)
+gir remote add (apelido do repositorio remoto) (url do repositorio remote)
+git push (apelido repositorio) (branch) > jogar coisas no meu repositorio remote
+git clone > puxar repositorio remoto para repositorio local
