@@ -1,9 +1,9 @@
 git add
 git commit
 git status
-git whatchanged -p
-git whatchanged
-git log
+git whatchanged > mostra quais arquivos foram alterados, alem da mensagem de commit
+git whatchanged -p > exibe mais detalhes, mostra o que foi alterado.
+git log > historico de commits com mensagens
 git ls-files
 git remote > mostra o repositorio remoto (no gitgub)
 gir remote add (apelido do repositorio remoto) (url do repositorio remote)
