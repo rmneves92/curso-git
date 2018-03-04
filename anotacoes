@@ -10,3 +10,9 @@ git remote > mostra o repositorio remoto (no gitgub)
 gir remote add (apelido do repositorio remoto) (url do repositorio remote)
 git push (apelido repositorio) (branch) > jogar coisas no meu repositorio remote
 git clone > puxar repositorio remoto para repositorio local
+git branch > verifica quais branches temos no repositorio. O * representa a branch atual do repositorio
+git branch (nome da branch) > criar uma branch
+git checkout (nome da branch) > trocar a branch
+
+
+branches > desenvolver o codigo numa area especifica do repositorio depois integrar essa area no repositorio principal (branch master). 
